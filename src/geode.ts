@@ -18,7 +18,6 @@ activateFileSelects();
  */
 const LOCATIONS_TO_SEARCH = [
   { x: 0, z: 0 },
-  /*
   { x: 0.0390625, z: 0.0390625 },
   { x: 0, z: 0.306640625 },
   { x: 0, z: 0.69140625 },
@@ -107,7 +106,6 @@ const LOCATIONS_TO_SEARCH = [
   { x: 0.9609375, z: 0.666015625 },
   { x: 0.99609375, z: 0.3046875 },
   { x: 0.99609375, z: 0.6953125 }
-  */
 ];
 
 function parseRegionFileName(name: string): { x: number, z: number } {
